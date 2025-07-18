@@ -1,0 +1,23 @@
+{
+  "name": "skillstechtalk-mobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "npx expo start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.9.0",
+  "dependencies": {
+    "expo": "^53.0.20",
+    "react": "^18.3.1",
+    "react-native": "^0.80.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.23",
+    "@types/react-native": "^0.73.0",
+    "typescript": "^5.8.3"
+  }
+}
