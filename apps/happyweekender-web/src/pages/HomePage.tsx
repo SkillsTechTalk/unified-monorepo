@@ -92,6 +92,7 @@ export default function HomePage() {
                             onChange={(e) => setGroupType(e.target.value)}
                         >
                             <MenuItem value="solo">Solo</MenuItem>
+                            <MenuItem value="date">Date</MenuItem>
                             <MenuItem value="friends">With Friends</MenuItem>
                             <MenuItem value="family">With Family</MenuItem>
                         </Select>
