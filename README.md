@@ -69,6 +69,12 @@ pnpm --filter skillstechtalk-web dev
 
 #### HappyWeekender Web
 
+Create a key using https://myprojects.geoapify.com/api
+
+Add it in happyweekender/.env
+
+VITE_GEOAPIFY_API_KEY=<key>
+
 ```bash
 pnpm --filter happyweekender-web dev
 ```
