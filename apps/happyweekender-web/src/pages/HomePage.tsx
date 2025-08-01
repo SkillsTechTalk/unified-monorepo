@@ -36,16 +36,14 @@ export default function HomePage() {
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
 
-        setTimeout(() => {
-            navigate("/plan", {
-                state: {
-                    zipCode,
-                    radius,
-                    groupType,
-                    interests,
-                },
-            });
-        }, 500);
+        navigate("/plan", {
+            state: {
+                zipCode,
+                radius,
+                groupType,
+                interests,
+            },
+        });
     };
 
     return (
